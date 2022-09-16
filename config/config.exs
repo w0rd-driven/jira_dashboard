@@ -18,6 +18,11 @@ config :jira_dashboard, JiraDashboardWeb.Endpoint,
   pubsub_server: JiraDashboard.PubSub,
   live_view: [signing_salt: "KXq9bymf"]
 
+config :jira_dashboard,
+  jira_hostname: System.get_env("JIRA_HOSTNAME"),
+  jira_username: System.get_env("JIRA_USERNAME"),
+  jira_password: System.get_env("JIRA_PASSWORD")
+
 # Configures the mailer
 #
 # By default it uses the "Local" adapter which stores the emails
