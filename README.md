@@ -21,7 +21,7 @@ When Jira introduced the "Your Work page" and configurable dashboards, the prior
 
 The primary goal is to treat this as an example of a take home assignment for an agency or consultancy.
 The work should ideally take no more than 8 hours or up to 16 if I'm feeling generous with my time.
-The idea being that as developers we should be able to estimate a single workday. Things happen though, i.e. research takes much longer than expected.
+The idea being that as a developer we should be able to at least estimate a single workday. Things happen though, i.e. research takes much longer than expected or we take a long time tweaking designs we create from scratch.
 If I can time box this aggressively I feel like it could be a good approach to onboarding new developers as well.
 
 It will also take a little time management to break apart the work I'm doing writing documentation like this as an "instructor" vs the "student" that produces the desired result.
@@ -54,16 +54,15 @@ Our attempt will be a hybrid of the 2 versions. My current Jira Dashboard has th
 * Status - Status
 * Story Points - Story Points
 
-I find the project name and dates to be useful but that can be a bit of extra text to work with.
-The project name generally isn't necessary when the key can usually convey this information but it can be easy to forget what a key belongs to if you have a lot of similar projects.
-We'll likely prototype some ideas and go with what looks useful.
+I find the project name and dates to be useful but that can be a bit of extra text that may or may not be useful.
+We'll likely prototype a few different ideas and go with what fits.
 My current dashboard also has more than one section which we may have time to introduce.
 
 #### Important Note
 
 We're not starting with a complete design in Tailwind so recreating this will absolutely eat into our implementation time.
 
-Full stack take home assignments rarely seem to call this out and if you're like me, a good design could easily take hours if I'm starting from scratch.
+Full stack take home assignments rarely seem to call this out and if you're like me, a good design could easily take quite a fewhours if I'm starting from scratch.
 
 I think it's important to track this time and cap it as necessary.
 It isn't always prudent to do this last and in most work environments you'll either have a designer or far more time to make adjustments than a typical workday.
