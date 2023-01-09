@@ -24,8 +24,9 @@ defmodule JiraDashboard.Jira.Client do
       "maxResults" => 2
     }
 
-    url = "/search?#{URI.encode_query(query)}"
+    # url = "/search?#{URI.encode_query(query)}"
+    url = "/search"
     # IO.inspect(url, label: "url")
-    Req.get!(url, options).body
+    Req.get!(url, options ++ [params: query]).body
   end
 end

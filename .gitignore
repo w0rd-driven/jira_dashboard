@@ -32,5 +32,10 @@ jira_dashboard-*.tar
 npm-debug.log
 /assets/node_modules/
 
+### Custom Settings
+
 # Environment variables
 .env
+
+# Elixir Language Server
+.elixir_ls
